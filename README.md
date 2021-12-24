@@ -1,0 +1,2 @@
+# threadedServerDaemon
+A threaded server and a client. The server will load a graph from a text file, and use a dynamic pool of threads to handle incoming connections. The client(s) will connect to the server and request a path between two arbitrary nodes, and the server will provide this service. However, things are not as simple as they seem with priorization and high-performance graph traversals
